@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
 }
@@ -18,3 +19,15 @@ code {
 }
 
 
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 940px;
+  padding: 20px;
+  background-color: lightgray;
+  margin: 0 auto;
+
+}
