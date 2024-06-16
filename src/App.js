@@ -1,8 +1,15 @@
-import './App.css';
-
+import "./App.css";
+import React from "react";
+import Header from "./components/Header";
+import GridLayout from "./components/GridLayout";
 function App() {
   return (
-   <h1>Shero---Test</h1>
+    <div className="App">
+      <Header />
+      <main>
+        <GridLayout />
+      </main>
+    </div>
   );
 }
 
