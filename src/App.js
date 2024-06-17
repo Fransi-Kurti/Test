@@ -12,6 +12,7 @@ function App() {
         <GridLayout />
       </main>
       <footer>
+        <h3 style={{marginTop: 0 + 'px'}}>NEW PRODUCTS</h3>
         <CarouselPart />
       </footer>
     </div>

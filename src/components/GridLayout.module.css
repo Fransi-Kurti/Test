@@ -6,6 +6,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+ 
 }
 
 .carts {
@@ -15,7 +16,7 @@
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
-  /* border: 1px solid black; */
+  padding-bottom: 20px;
 }
 
 .wrapper > div {
@@ -29,9 +30,10 @@
   grid-column: 1 / 3;
   grid-row: 1/3;
   background: url("../assets//dummy_600x400_000000_31e9f9.png");
-  background-size: cover; /* Ensures the image covers the entire div */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .two {
@@ -41,6 +43,7 @@
   background: url("../assets//dummy_600x400_000000_fcc5c4.png");
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .boxTwoButton {
@@ -52,9 +55,10 @@
   color: blue;
   border: none;
   cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-.boxTwoButton:hover{
+.boxTwoButton:hover {
   background-color: blue;
   color: antiquewhite;
 }
@@ -69,9 +73,10 @@
   background: url("../assets//dummy_600x400_000000_1fc6b6.png");
   background-position: center;
   background-repeat: no-repeat;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-.boxThreeButton{
+.boxThreeButton {
   margin-bottom: 10px;
   padding: 3px;
   background-color: antiquewhite;
@@ -79,7 +84,7 @@
   border: none;
   cursor: pointer;
 }
-.boxThreeButton:hover{
+.boxThreeButton:hover {
   background-color: blue;
   color: antiquewhite;
 }
@@ -92,6 +97,7 @@
   .one {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    font-size: smaller;
   }
 
   .two {
@@ -105,6 +111,9 @@
   }
 
   .carts {
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
   }
 }

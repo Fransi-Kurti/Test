@@ -13,15 +13,15 @@ const breakPoints = [
 export default function CarouselPart() {
   return (
     <Carousel breakPoints={breakPoints}>
-      <CarouselItem>1</CarouselItem>
-      <CarouselItem>2</CarouselItem>
-      <CarouselItem>13</CarouselItem>
-      <CarouselItem>4</CarouselItem>
-      <CarouselItem>5</CarouselItem>
-      <CarouselItem>6</CarouselItem>
-      <CarouselItem>7</CarouselItem>
-      <CarouselItem>8</CarouselItem>
-      <CarouselItem>8</CarouselItem>
+      <CarouselItem></CarouselItem>
+      <CarouselItem></CarouselItem>
+      <CarouselItem></CarouselItem>
+      <CarouselItem></CarouselItem>
+      <CarouselItem></CarouselItem>
+      <CarouselItem></CarouselItem>
+      <CarouselItem></CarouselItem>
+      <CarouselItem></CarouselItem>
+      <CarouselItem></CarouselItem>
     </Carousel>
   );
 }

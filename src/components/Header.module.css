@@ -1,8 +1,9 @@
 .title{
+    margin-top: 0;
     text-align: center;
-    background-color: aliceblue;
-    color: blue;
+    background-color: rgb(236, 236, 236);
+    color: white;
 }
 .test{
-    color: red;
+    color: black;
 }
