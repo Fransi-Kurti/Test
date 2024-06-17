@@ -17,7 +17,7 @@ export default function GridLayout() {
 
             <p>FOR ORDERS OVER $200</p>
             <h1>CODE: JULY4</h1>
-            <Button label="shop now" />
+            <Button label="Shop now" />
           </div>
         </div>
         <div className={classes.two}>
