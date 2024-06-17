@@ -1,8 +1,14 @@
-.button{
-    margin: 10px;
-    background-color: blue;
-    color: white;
-    font-size: smaller;
-    padding: 5px 15px;
-    border: none;
+.button {
+  margin: 10px;
+  background-color: blue;
+  color: white;
+  font-size: smaller;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: aliceblue;
+  color: blue;
 }

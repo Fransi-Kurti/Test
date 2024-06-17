@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export default styled.div`
   display: flex;
@@ -6,7 +6,7 @@ export default styled.div`
   align-items: center;
   height: 150px;
   width: 130px;
-  background-color: #00008B;
+  background-color: #00008b;
   color: #fff;
   margin: 0 15px;
   font-size: 4em;

@@ -9,41 +9,102 @@
 }
 
 .carts {
-    max-width: 940px;
-    min-height: 250px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-    /* border: 1px solid black; */
-
+  max-width: 940px;
+  min-height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  /* border: 1px solid black; */
 }
 
 .wrapper > div {
   border-radius: 5px;
   padding: 1em;
-  color: #d9480f;
 }
 
 .one {
+  text-align: right;
+
   grid-column: 1 / 3;
   grid-row: 1/3;
-  background: url("../assets/dummy_600x400_000000_b7d350.png");
+  background: url("../assets//dummy_600x400_000000_31e9f9.png");
   background-size: cover; /* Ensures the image covers the entire div */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+
 .two {
+  position: relative;
   grid-column: 3 / 3;
   grid-row: 0 / 3;
-  background: url("../assets/dummy_600x400_000000_c5ffaf.png");
+  background: url("../assets//dummy_600x400_000000_fcc5c4.png");
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.boxTwoButton {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 3px;
+  background-color: antiquewhite;
+  color: blue;
+  border: none;
+  cursor: pointer;
+}
+
+.boxTwoButton:hover{
+  background-color: blue;
+  color: antiquewhite;
+}
+
 .three {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   grid-column: 3;
   grid-row: 2 / 3;
-  background: url("../assets/dummy_600x400_000000_d3d026.png");
+  background: url("../assets//dummy_600x400_000000_1fc6b6.png");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.boxThreeButton{
+  margin-bottom: 10px;
+  padding: 3px;
+  background-color: antiquewhite;
+  color: blue;
+  border: none;
+  cursor: pointer;
+}
+.boxThreeButton:hover{
+  background-color: blue;
+  color: antiquewhite;
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .two {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .three {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .carts {
+    flex-direction: column;
+  }
 }
